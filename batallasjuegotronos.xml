@@ -1,0 +1,1292 @@
+	<batalla tipo_batalla="pitched battle">
+		<nombre>Battle of the Golden Tooth</nombre>
+		<año>298</año>
+		<numero_batalla>1</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="15000">
+				<rey_atacante>Joffrey/Tommen Baratheon</rey_atacante>
+				<comandante_atacante>Jaime Lannister</comandante_atacante>
+				<atacantes>
+					<atacante>Lannister</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="4000">
+				<rey_defensor>Robb Stark</rey_defensor>
+				<comandante_defensor>Clement Piper, Vance</comandante_defensor>
+				<defensores>
+					<defensor>Tully</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>1</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>1</summer>
+		<localizacion>Golden Tooth</localizacion>
+		<region>The Westerlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="ambush">
+		<nombre>Battle at the Mummer&apos;s Ford</nombre>
+		<año>298</año>
+		<numero_batalla>2</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="">
+				<rey_atacante>Joffrey/Tommen Baratheon</rey_atacante>
+				<comandante_atacante>Gregor Clegane</comandante_atacante>
+				<atacantes>
+					<atacante>Lannister</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="120">
+				<rey_defensor>Robb Stark</rey_defensor>
+				<comandante_defensor>Beric Dondarrion</comandante_defensor>
+				<defensores>
+					<defensor>Baratheon</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>1</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>1</summer>
+		<localizacion>Mummer&apos;s Ford</localizacion>
+		<region>The Riverlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="pitched battle">
+		<nombre>Battle of Riverrun</nombre>
+		<año>298</año>
+		<numero_batalla>3</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="15000">
+				<rey_atacante>Joffrey/Tommen Baratheon</rey_atacante>
+				<comandante_atacante>Jaime Lannister, Andros Brax</comandante_atacante>
+				<atacantes>
+					<atacante>Lannister</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="10000">
+				<rey_defensor>Robb Stark</rey_defensor>
+				<comandante_defensor>Edmure Tully, Tytos Blackwood</comandante_defensor>
+				<defensores>
+					<defensor>Tully</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>1</captura_importante>
+		<summer>1</summer>
+		<localizacion>Riverrun</localizacion>
+		<region>The Riverlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="pitched battle">
+		<nombre>Battle of the Green Fork</nombre>
+		<año>298</año>
+		<numero_batalla>4</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="18000">
+				<rey_atacante>Robb Stark</rey_atacante>
+				<comandante_atacante>Roose Bolton, Wylis Manderly, Medger Cerwyn, Harrion Karstark, Halys Hornwood</comandante_atacante>
+				<atacantes>
+					<atacante>Stark</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="20000">
+				<rey_defensor>Joffrey/Tommen Baratheon</rey_defensor>
+				<comandante_defensor>Tywin Lannister, Gregor Clegane, Kevan Lannister, Addam Marbrand</comandante_defensor>
+				<defensores>
+					<defensor>Lannister</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>loss</resultado_atacante>
+		<muerte_importante>1</muerte_importante>
+		<captura_importante>1</captura_importante>
+		<summer>1</summer>
+		<localizacion>Green Fork</localizacion>
+		<region>The Riverlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="ambush">
+		<nombre>Battle of the Whispering Wood</nombre>
+		<año>298</año>
+		<numero_batalla>5</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="1875">
+				<rey_atacante>Robb Stark</rey_atacante>
+				<comandante_atacante>Robb Stark, Brynden Tully</comandante_atacante>
+				<atacantes>
+					<atacante>Stark</atacante>
+					<atacante>Tully</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="6000">
+				<rey_defensor>Joffrey/Tommen Baratheon</rey_defensor>
+				<comandante_defensor>Jaime Lannister</comandante_defensor>
+				<defensores>
+					<defensor>Lannister</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>1</muerte_importante>
+		<captura_importante>1</captura_importante>
+		<summer>1</summer>
+		<localizacion>Whispering Wood</localizacion>
+		<region>The Riverlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="ambush">
+		<nombre>Battle of the Camps</nombre>
+		<año>298</año>
+		<numero_batalla>6</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="6000">
+				<rey_atacante>Robb Stark</rey_atacante>
+				<comandante_atacante>Robb Stark, Tytos Blackwood, Brynden Tully</comandante_atacante>
+				<atacantes>
+					<atacante>Stark</atacante>
+					<atacante>Tully</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="12625">
+				<rey_defensor>Joffrey/Tommen Baratheon</rey_defensor>
+				<comandante_defensor>Lord Andros Brax, Forley Prester</comandante_defensor>
+				<defensores>
+					<defensor>Lannister</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>1</summer>
+		<localizacion>Riverrun</localizacion>
+		<region>The Riverlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="pitched battle">
+		<nombre>Sack of Darry</nombre>
+		<año>298</año>
+		<numero_batalla>7</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="">
+				<rey_atacante>Joffrey/Tommen Baratheon</rey_atacante>
+				<comandante_atacante>Gregor Clegane</comandante_atacante>
+				<atacantes>
+					<atacante>Lannister</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor>Robb Stark</rey_defensor>
+				<comandante_defensor>Lyman Darry</comandante_defensor>
+				<defensores>
+					<defensor>Darry</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>1</summer>
+		<localizacion>Darry</localizacion>
+		<region>The Riverlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="pitched battle">
+		<nombre>Battle of Moat Cailin</nombre>
+		<año>299</año>
+		<numero_batalla>8</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="">
+				<rey_atacante>Balon/Euron Greyjoy</rey_atacante>
+				<comandante_atacante>Victarion Greyjoy</comandante_atacante>
+				<atacantes>
+					<atacante>Greyjoy</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor>Robb Stark</rey_defensor>
+				<comandante_defensor></comandante_defensor>
+				<defensores>
+					<defensor>Stark</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>1</summer>
+		<localizacion>Moat Cailin</localizacion>
+		<region>The North</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="siege">
+		<nombre>Battle of Deepwood Motte</nombre>
+		<año>299</año>
+		<numero_batalla>9</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="1000">
+				<rey_atacante>Balon/Euron Greyjoy</rey_atacante>
+				<comandante_atacante>Asha Greyjoy</comandante_atacante>
+				<atacantes>
+					<atacante>Greyjoy</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor>Robb Stark</rey_defensor>
+				<comandante_defensor></comandante_defensor>
+				<defensores>
+					<defensor>Stark</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>1</summer>
+		<localizacion>Deepwood Motte</localizacion>
+		<region>The North</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="ambush">
+		<nombre>Battle of the Stony Shore</nombre>
+		<año>299</año>
+		<numero_batalla>10</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="264">
+				<rey_atacante>Balon/Euron Greyjoy</rey_atacante>
+				<comandante_atacante>Theon Greyjoy</comandante_atacante>
+				<atacantes>
+					<atacante>Greyjoy</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor>Robb Stark</rey_defensor>
+				<comandante_defensor></comandante_defensor>
+				<defensores>
+					<defensor>Stark</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>1</summer>
+		<localizacion>Stony Shore</localizacion>
+		<region>The North</region>
+		<nota>Greyjoy&apos;s troop number based on the Battle of Deepwood Motte, in which Asha had 1000 soldier on 30 longships. That comes out to ~33 per longship. In the Battle of the Stony Shore, Theon has 8 longships, and just we can estimate that he has 8*33 =265 troops.</nota>
+	</batalla>
+	<batalla tipo_batalla="pitched battle">
+		<nombre>Battle of Torrhen&apos;s Square</nombre>
+		<año>299</año>
+		<numero_batalla>11</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="244">
+				<rey_atacante>Robb Stark</rey_atacante>
+				<comandante_atacante>Rodrik Cassel, Cley Cerwyn</comandante_atacante>
+				<atacantes>
+					<atacante>Stark</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="900">
+				<rey_defensor>Balon/Euron Greyjoy</rey_defensor>
+				<comandante_defensor>Dagmer Cleftjaw</comandante_defensor>
+				<defensores>
+					<defensor>Greyjoy</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>1</summer>
+		<localizacion>Torrhen&apos;s Square</localizacion>
+		<region>The North</region>
+		<nota>Greyjoy&apos;s troop number comes from the 264 estimate to have arrived on the stony shore minus the 20 Theon takes to attack Winterfell. Thus 264-20=244</nota>
+	</batalla>
+	<batalla tipo_batalla="ambush">
+		<nombre>Battle of Winterfell</nombre>
+		<año>299</año>
+		<numero_batalla>12</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="20">
+				<rey_atacante>Balon/Euron Greyjoy</rey_atacante>
+				<comandante_atacante>Theon Greyjoy</comandante_atacante>
+				<atacantes>
+					<atacante>Greyjoy</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor>Robb Stark</rey_defensor>
+				<comandante_defensor>Bran Stark</comandante_defensor>
+				<defensores>
+					<defensor>Stark</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>1</captura_importante>
+		<summer>1</summer>
+		<localizacion>Winterfell</localizacion>
+		<region>The North</region>
+		<nota>It isn&apos;t mentioned how many Stark men are left in Winterfell, other than &quot;very few&quot;.</nota>
+	</batalla>
+	<batalla tipo_batalla="siege">
+		<nombre>Sack of Torrhen&apos;s Square</nombre>
+		<año>299</año>
+		<numero_batalla>13</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="">
+				<rey_atacante>Balon/Euron Greyjoy</rey_atacante>
+				<comandante_atacante>Dagmer Cleftjaw</comandante_atacante>
+				<atacantes>
+					<atacante>Greyjoy</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor>Balon/Euron Greyjoy</rey_defensor>
+				<comandante_defensor></comandante_defensor>
+				<defensores>
+					<defensor>Stark</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>1</captura_importante>
+		<summer>1</summer>
+		<localizacion>Torrhen&apos;s Square</localizacion>
+		<region>The North</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="ambush">
+		<nombre>Sack of Winterfell</nombre>
+		<año>299</año>
+		<numero_batalla>14</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="618">
+				<rey_atacante>Joffrey/Tommen Baratheon</rey_atacante>
+				<comandante_atacante>Ramsay Snow, Theon Greyjoy </comandante_atacante>
+				<atacantes>
+					<atacante>Bolton</atacante>
+					<atacante>Greyjoy</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="2000">
+				<rey_defensor>Robb Stark</rey_defensor>
+				<comandante_defensor>Rodrik Cassel, Cley Cerwyn, Leobald Tallhart</comandante_defensor>
+				<defensores>
+					<defensor>Stark</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>1</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>1</summer>
+		<localizacion>Winterfell</localizacion>
+		<region>The North</region>
+		<nota>Since House Bolton betrays the Starks for House Lannister, we code this battle as between these two houses. Greyjoy men, numbering only 20, don&apos;t play a major part in the fighting and end up dying anyway.</nota>
+	</batalla>
+	<batalla tipo_batalla="ambush">
+		<nombre>Battle of Oxcross</nombre>
+		<año>299</año>
+		<numero_batalla>15</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="6000">
+				<rey_atacante>Robb Stark</rey_atacante>
+				<comandante_atacante>Robb Stark, Brynden Tully</comandante_atacante>
+				<atacantes>
+					<atacante>Stark</atacante>
+					<atacante>Tully</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="10000">
+				<rey_defensor>Joffrey/Tommen Baratheon</rey_defensor>
+				<comandante_defensor>Stafford Lannister, Roland Crakehall, Antario Jast</comandante_defensor>
+				<defensores>
+					<defensor>Lannister</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>1</muerte_importante>
+		<captura_importante>1</captura_importante>
+		<summer>1</summer>
+		<localizacion>Oxcross</localizacion>
+		<region>The Westerlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="siege">
+		<nombre>Siege of Storm&apos;s End</nombre>
+		<año>299</año>
+		<numero_batalla>16</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="5000">
+				<rey_atacante>Stannis Baratheon</rey_atacante>
+				<comandante_atacante>Stannis Baratheon, Davos Seaworth</comandante_atacante>
+				<atacantes>
+					<atacante>Baratheon</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="20000">
+				<rey_defensor>Renly Baratheon</rey_defensor>
+				<comandante_defensor>Renly Baratheon, Cortnay Penrose, Loras Tyrell, Randyll Tarly, Mathis Rowan</comandante_defensor>
+				<defensores>
+					<defensor>Baratheon</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>1</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>1</summer>
+		<localizacion>Storm&apos;s End</localizacion>
+		<region>The Stormlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="pitched battle">
+		<nombre>Battle of the Fords</nombre>
+		<año>299</año>
+		<numero_batalla>17</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="20000">
+				<rey_atacante>Joffrey/Tommen Baratheon</rey_atacante>
+				<comandante_atacante>Tywin Lannister, Flement Brax, Gregor Clegane, Addam Marbrand, Lyle Crakehall, Leo Lefford</comandante_atacante>
+				<atacantes>
+					<atacante>Lannister</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="10000">
+				<rey_defensor>Robb Stark</rey_defensor>
+				<comandante_defensor>Edmure Tully, Jason Mallister, Karyl Vance</comandante_defensor>
+				<defensores>
+					<defensor>Tully</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>loss</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>1</summer>
+		<localizacion>Red Fork</localizacion>
+		<region>The Riverlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="ambush">
+		<nombre>Sack of Harrenhal</nombre>
+		<año>299</año>
+		<numero_batalla>18</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="100">
+				<rey_atacante>Robb Stark</rey_atacante>
+				<comandante_atacante>Roose Bolton, Vargo Hoat, Robett Glover</comandante_atacante>
+				<atacantes>
+					<atacante>Stark</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="100">
+				<rey_defensor>Joffrey/Tommen Baratheon</rey_defensor>
+				<comandante_defensor>Amory Lorch</comandante_defensor>
+				<defensores>
+					<defensor>Lannister</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>1</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>1</summer>
+		<localizacion>Harrenhal</localizacion>
+		<region>The Riverlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="ambush">
+		<nombre>Battle of the Crag</nombre>
+		<año>299</año>
+		<numero_batalla>19</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="6000">
+				<rey_atacante>Robb Stark</rey_atacante>
+				<comandante_atacante>Robb Stark, Smalljon Umber, Black Walder Frey</comandante_atacante>
+				<atacantes>
+					<atacante>Stark</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor>Joffrey/Tommen Baratheon</rey_defensor>
+				<comandante_defensor>Rolph Spicer</comandante_defensor>
+				<defensores>
+					<defensor>Lannister</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>1</summer>
+		<localizacion>Crag</localizacion>
+		<region>The Westerlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="pitched battle">
+		<nombre>Battle of the Blackwater</nombre>
+		<año>299</año>
+		<numero_batalla>20</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="21000">
+				<rey_atacante>Stannis Baratheon</rey_atacante>
+				<comandante_atacante>Stannis Baratheon, Imry Florent, Guyard Morrigen, Rolland Storm, Salladhor Saan, Davos Seaworth</comandante_atacante>
+				<atacantes>
+					<atacante>Baratheon</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="7250">
+				<rey_defensor>Joffrey/Tommen Baratheon</rey_defensor>
+				<comandante_defensor>Tyrion Lannister, Jacelyn Bywater, Sandor Clegane, Tywin Lannister, Garlan Tyrell, Mace Tyrell, Randyll Tarly</comandante_defensor>
+				<defensores>
+					<defensor>Lannister</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>loss</resultado_atacante>
+		<muerte_importante>1</muerte_importante>
+		<captura_importante>1</captura_importante>
+		<summer>1</summer>
+		<localizacion>King&apos;s Landing</localizacion>
+		<region>The Crownlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="siege">
+		<nombre>Siege of Darry</nombre>
+		<año>299</año>
+		<numero_batalla>21</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="">
+				<rey_atacante>Robb Stark</rey_atacante>
+				<comandante_atacante>Helman Tallhart</comandante_atacante>
+				<atacantes>
+					<atacante>Darry</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor>Joffrey/Tommen Baratheon</rey_defensor>
+				<comandante_defensor></comandante_defensor>
+				<defensores>
+					<defensor>Lannister</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>1</summer>
+		<localizacion>Darry</localizacion>
+		<region>The Riverlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="pitched battle">
+		<nombre>Battle of Duskendale</nombre>
+		<año>299</año>
+		<numero_batalla>22</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="3000">
+				<rey_atacante>Robb Stark</rey_atacante>
+				<comandante_atacante>Robertt Glover, Helman Tallhart</comandante_atacante>
+				<atacantes>
+					<atacante>Stark</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor>Joffrey/Tommen Baratheon</rey_defensor>
+				<comandante_defensor>Randyll Tarly, Gregor Clegane</comandante_defensor>
+				<defensores>
+					<defensor>Lannister</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>loss</resultado_atacante>
+		<muerte_importante>1</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>1</summer>
+		<localizacion>Duskendale</localizacion>
+		<region>The Crownlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="pitched battle">
+		<nombre>Battle of the Burning Septry</nombre>
+		<año>299</año>
+		<numero_batalla>23</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="">
+				<rey_atacante></rey_atacante>
+				<comandante_atacante></comandante_atacante>
+				<atacantes>
+					<atacante>Brotherhood without Banners</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor></rey_defensor>
+				<comandante_defensor></comandante_defensor>
+				<defensores>
+					<defensor>Brave Companions</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>1</summer>
+		<localizacion></localizacion>
+		<region>The Riverlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="pitched battle">
+		<nombre>Battle of the Ruby Ford</nombre>
+		<año>299</año>
+		<numero_batalla>24</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="">
+				<rey_atacante>Joffrey/Tommen Baratheon</rey_atacante>
+				<comandante_atacante>Gregor Clegane</comandante_atacante>
+				<atacantes>
+					<atacante>Lannister</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="6000">
+				<rey_defensor>Robb Stark</rey_defensor>
+				<comandante_defensor>Roose Bolton, Wylis Manderly</comandante_defensor>
+				<defensores>
+					<defensor>Stark</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer></summer>
+		<localizacion>Ruby Ford</localizacion>
+		<region>The Riverlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="pitched battle">
+		<nombre>Retaking of Harrenhal</nombre>
+		<año>299</año>
+		<numero_batalla>25</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="">
+				<rey_atacante>Joffrey/Tommen Baratheon</rey_atacante>
+				<comandante_atacante>Gregor Clegane</comandante_atacante>
+				<atacantes>
+					<atacante>Lannister</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor></rey_defensor>
+				<comandante_defensor>Vargo Hoat</comandante_defensor>
+				<defensores>
+					<defensor>Brave Companions</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>1</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>1</summer>
+		<localizacion>Harrenhal</localizacion>
+		<region>The Riverlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="ambush">
+		<nombre>The Red Wedding</nombre>
+		<año>299</año>
+		<numero_batalla>26</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="3500">
+				<rey_atacante>Joffrey/Tommen Baratheon</rey_atacante>
+				<comandante_atacante>Walder Frey, Roose Bolton, Walder Rivers</comandante_atacante>
+				<atacantes>
+					<atacante>Frey</atacante>
+					<atacante>Bolton</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="3500">
+				<rey_defensor>Robb Stark</rey_defensor>
+				<comandante_defensor>Robb Stark</comandante_defensor>
+				<defensores>
+					<defensor>Stark</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>1</muerte_importante>
+		<captura_importante>1</captura_importante>
+		<summer>1</summer>
+		<localizacion>The Twins</localizacion>
+		<region>The Riverlands</region>
+		<nota>This observation refers to the battle against the Stark men, not the attack on the wedding</nota>
+	</batalla>
+	<batalla tipo_batalla="siege">
+		<nombre>Siege of Seagard</nombre>
+		<año>299</año>
+		<numero_batalla>27</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="">
+				<rey_atacante>Robb Stark</rey_atacante>
+				<comandante_atacante>Walder Frey</comandante_atacante>
+				<atacantes>
+					<atacante>Frey</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor>Joffrey/Tommen Baratheon</rey_defensor>
+				<comandante_defensor>Jason Mallister</comandante_defensor>
+				<defensores>
+					<defensor>Mallister</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>1</captura_importante>
+		<summer>1</summer>
+		<localizacion>Seagard</localizacion>
+		<region>The Riverlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="siege">
+		<nombre>Battle of Castle Black</nombre>
+		<año>300</año>
+		<numero_batalla>28</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="100000">
+				<rey_atacante>Stannis Baratheon</rey_atacante>
+				<comandante_atacante>Mance Rayder, Tormund Giantsbane, Harma Dogshead, Magnar Styr, Varamyr</comandante_atacante>
+				<atacantes>
+					<atacante>Free folk</atacante>
+					<atacante>Thenns</atacante>
+					<atacante>Giants</atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="1240">
+				<rey_defensor>Mance Rayder</rey_defensor>
+				<comandante_defensor>Stannis Baratheon, Jon Snow, Donal Noye, Cotter Pyke</comandante_defensor>
+				<defensores>
+					<defensor>Night&apos;s Watch</defensor>
+					<defensor>Baratheon</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>loss</resultado_atacante>
+		<muerte_importante>1</muerte_importante>
+		<captura_importante>1</captura_importante>
+		<summer>0</summer>
+		<localizacion>Castle Black</localizacion>
+		<region>Beyond the Wall</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="siege">
+		<nombre>Fall of Moat Cailin</nombre>
+		<año>300</año>
+		<numero_batalla>29</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="">
+				<rey_atacante>Joffrey/Tommen Baratheon</rey_atacante>
+				<comandante_atacante>Ramsey Bolton</comandante_atacante>
+				<atacantes>
+					<atacante>Bolton</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor>Balon/Euron Greyjoy</rey_defensor>
+				<comandante_defensor></comandante_defensor>
+				<defensores>
+					<defensor>Greyjoy</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>0</summer>
+		<localizacion>Moat Cailin</localizacion>
+		<region>The North</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="razing">
+		<nombre>Sack of Saltpans</nombre>
+		<año>300</año>
+		<numero_batalla>30</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="">
+				<rey_atacante></rey_atacante>
+				<comandante_atacante>Rorge</comandante_atacante>
+				<atacantes>
+					<atacante>Brave Companions</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor></rey_defensor>
+				<comandante_defensor></comandante_defensor>
+				<defensores>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>0</summer>
+		<localizacion>Saltpans</localizacion>
+		<region>The Riverlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="pitched battle">
+		<nombre>Retaking of Deepwood Motte</nombre>
+		<año>300</año>
+		<numero_batalla>31</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="4500">
+				<rey_atacante>Stannis Baratheon</rey_atacante>
+				<comandante_atacante>Stannis Baratheon, Alysane Mormot</comandante_atacante>
+				<atacantes>
+					<atacante>Baratheon</atacante>
+					<atacante>Karstark</atacante>
+					<atacante>Mormont</atacante>
+					<atacante>Glover</atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="200">
+				<rey_defensor>Balon/Euron Greyjoy</rey_defensor>
+				<comandante_defensor>Asha Greyjoy</comandante_defensor>
+				<defensores>
+					<defensor>Greyjoy</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>0</summer>
+		<localizacion>Deepwood Motte</localizacion>
+		<region>The North</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="pitched battle">
+		<nombre>Battle of the Shield Islands</nombre>
+		<año>300</año>
+		<numero_batalla>32</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="">
+				<rey_atacante>Balon/Euron Greyjoy</rey_atacante>
+				<comandante_atacante>Euron Greyjoy, Victarion Greyjoy</comandante_atacante>
+				<atacantes>
+					<atacante>Greyjoy</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor>Joffrey/Tommen Baratheon</rey_defensor>
+				<comandante_defensor></comandante_defensor>
+				<defensores>
+					<defensor>Tyrell</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>0</summer>
+		<localizacion>Shield Islands</localizacion>
+		<region>The Reach</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="razing">
+		<nombre>Invasion of Ryamsport, Vinetown, and Starfish Harbor</nombre>
+		<año>300</año>
+		<numero_batalla>33</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="">
+				<rey_atacante>Balon/Euron Greyjoy</rey_atacante>
+				<comandante_atacante>Euron Greyjoy, Victarion Greyjoy</comandante_atacante>
+				<atacantes>
+					<atacante>Greyjoy</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor>Joffrey/Tommen Baratheon</rey_defensor>
+				<comandante_defensor></comandante_defensor>
+				<defensores>
+					<defensor>Tyrell</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>0</summer>
+		<localizacion>Ryamsport, Vinetown, Starfish Harbor</localizacion>
+		<region>The Reach</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="siege">
+		<nombre>Second Seige of Storm&apos;s End</nombre>
+		<año>300</año>
+		<numero_batalla>34</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="">
+				<rey_atacante>Joffrey/Tommen Baratheon</rey_atacante>
+				<comandante_atacante>Mace Tyrell, Mathis Rowan</comandante_atacante>
+				<atacantes>
+					<atacante>Baratheon</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="200">
+				<rey_defensor>Stannis Baratheon</rey_defensor>
+				<comandante_defensor>Gilbert Farring</comandante_defensor>
+				<defensores>
+					<defensor>Baratheon</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>0</summer>
+		<localizacion>Storm&apos;s End</localizacion>
+		<region>The Stormlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="siege">
+		<nombre>Siege of Dragonstone</nombre>
+		<año>300</año>
+		<numero_batalla>35</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="2000">
+				<rey_atacante>Joffrey/Tommen Baratheon</rey_atacante>
+				<comandante_atacante>Loras Tyrell, Raxter Redwyne</comandante_atacante>
+				<atacantes>
+					<atacante>Baratheon</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor>Stannis Baratheon</rey_defensor>
+				<comandante_defensor>Rolland Storm</comandante_defensor>
+				<defensores>
+					<defensor>Baratheon</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>0</summer>
+		<localizacion>Dragonstone</localizacion>
+		<region>The Stormlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="siege">
+		<nombre>Siege of Riverrun</nombre>
+		<año>300</año>
+		<numero_batalla>36</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="3000">
+				<rey_atacante>Joffrey/Tommen Baratheon</rey_atacante>
+				<comandante_atacante>Daven Lannister, Ryman Fey, Jaime Lannister</comandante_atacante>
+				<atacantes>
+					<atacante>Lannister</atacante>
+					<atacante>Frey</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor>Robb Stark</rey_defensor>
+				<comandante_defensor>Brynden Tully</comandante_defensor>
+				<defensores>
+					<defensor>Tully</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>0</captura_importante>
+		<summer>0</summer>
+		<localizacion>Riverrun</localizacion>
+		<region>The Riverlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="siege">
+		<nombre>Siege of Raventree</nombre>
+		<año>300</año>
+		<numero_batalla>37</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="1500">
+				<rey_atacante>Joffrey/Tommen Baratheon</rey_atacante>
+				<comandante_atacante>Jonos Bracken, Jaime Lannister</comandante_atacante>
+				<atacantes>
+					<atacante>Bracken</atacante>
+					<atacante>Lannister</atacante>
+					<atacante></atacante>
+					<atacante></atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="">
+				<rey_defensor>Robb Stark</rey_defensor>
+				<comandante_defensor>Tytos Blackwood</comandante_defensor>
+				<defensores>
+					<defensor>Blackwood</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante>win</resultado_atacante>
+		<muerte_importante>0</muerte_importante>
+		<captura_importante>1</captura_importante>
+		<summer>0</summer>
+		<localizacion>Raventree</localizacion>
+		<region>The Riverlands</region>
+		<nota></nota>
+	</batalla>
+	<batalla tipo_batalla="siege">
+		<nombre>Siege of Winterfell</nombre>
+		<año>300</año>
+		<numero_batalla>38</numero_batalla>
+		<contendientes>
+			<ejercito_atacante tamaño_ejercito="5000">
+				<rey_atacante>Stannis Baratheon</rey_atacante>
+				<comandante_atacante>Stannis Baratheon</comandante_atacante>
+				<atacantes>
+					<atacante>Baratheon</atacante>
+					<atacante>Karstark</atacante>
+					<atacante>Mormont</atacante>
+					<atacante>Glover</atacante>
+				</atacantes>
+			</ejercito_atacante>
+			<ejercito_defensor tamaño_ejercito="8000">
+				<rey_defensor>Joffrey/Tommen Baratheon</rey_defensor>
+				<comandante_defensor>Roose Bolton</comandante_defensor>
+				<defensores>
+					<defensor>Bolton</defensor>
+					<defensor>Frey</defensor>
+					<defensor></defensor>
+					<defensor></defensor>
+				</defensores>
+			</ejercito_defensor>
+		</contendientes>
+		<resultado_atacante></resultado_atacante>
+		<muerte_importante></muerte_importante>
+		<captura_importante></captura_importante>
+		<summer>0</summer>
+		<localizacion>Winterfell</localizacion>
+		<region>The North</region>
+		<nota></nota>
+	</batalla>
