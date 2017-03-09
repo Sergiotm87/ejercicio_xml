@@ -10,23 +10,30 @@ raiz=doc.getroot()
 #ej. Robb Stark,Stannis Baratheon
 rey="Robb Stark"
 
-
-#ejercitos=raiz.xpath("//batalla/contendientes")
-#for i in ejercitos:
-    #print i[0].attrib
-    #print i.attrib[]
-
-
-#for attr,value in ejercitos.items():
-      #print attr,value
-
-#raiz.findall("/batalla/contendientes/ejercito_atacante/rey_atacante")
+#he eliminado el caracter 'ñ' del xml porque xpath no aceptaba ese caracter a pesar de que ambos ficheros estan codificados con utf-8
 
 rutarey="//rey_atacante/text()|//rey_defensor/text()"
+ejercito="//ejercito_atacante[rey_atacante/text()='"+rey+"']/@ejercito"
+
 reyes=raiz.xpath(rutarey)
 if rey in reyes:
-    ejercitos=("//ejercito_atacante[rey_atacante/text()="+rey+"]/@tamaño_ejercito")
+    ejercitos=raiz.xpath(ejercito)
 
+#print ejercitos
 
+#pasamos la lista de strings a una lista de numeros pero al mapear la lista como integer da una excepcion ValueError debido que no puede
+#pasar a numero un valor como ' ' asi que usamos lo siguiente, la lista sin repetir y una estructura con la misma funcion que map(int,list)
 
+x = list(set(ejercitos))
 
+mayorejercito=0
+
+for elem in x:
+   if elem.strip():
+       n = int(elem)
+       if n>mayorejercito:
+           mayorejercito=n
+
+print mayorejercito
+
+# falta modificar la ruta xpath ejercito para que tome tambien al rey en el ejercito defensor
