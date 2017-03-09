@@ -5,3 +5,6 @@ from lxml import etree
 #
 doc = etree.parse('batallasjuegotronos.xml')
 raiz=doc.getroot()
+
+#for e in raiz.findall('//attribute::tamaño_ejercito'):
+    #print e

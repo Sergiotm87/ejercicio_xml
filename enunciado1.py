@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from lxml import etree
+from collections import defaultdict
 #
 #    Muestra todas las batallas ordenadas por la region en la que se produjeron
 #
@@ -15,6 +16,16 @@ for elem in raiz:
     listatemporal.append(elem.find("nombre").text)
     lista.append(listatemporal)
 
-print lista
+#uso un contenedor de tipo defaultdict, creamos un diccionario con las regiones como keys y las batallas como una lista de valores
 
-#crear un diccionario desde una lista de listas
+#https://docs.python.org/2/library/collections.html#collections.defaultdict
+#'Using list as the default_factory, it is easy to group a sequence of key-value pairs into a dictionary of lists'
+
+dicregiones = defaultdict(list)
+for k, v in lista:
+        dicregiones[k].append(v)
+
+#listar las batallas de cada region:
+
+for key in dicregiones:
+  print key, ":", dicregiones[key]
