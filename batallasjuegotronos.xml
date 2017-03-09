@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raiz>
 	<batalla tipo_batalla="pitched battle">
 		<nombre>Battle of the Golden Tooth</nombre>
 		<año>298</año>
@@ -1290,3 +1292,4 @@
 		<region>The North</region>
 		<nota></nota>
 	</batalla>
+</raiz>
