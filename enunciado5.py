@@ -7,9 +7,8 @@ from lxml import etree
 doc = etree.parse('batallasjuegotronos.xml')
 raiz=doc.getroot()
 
-#zona=raw_input("introduce el nombre de una zona")
+zona=raw_input("introduce el nombre de una zona")
 #ej. The Riverlands,The North,The Westerlands
-zona="The Riverlands"
 
 #localizamos el nombre de las zonas, despues tomamos los reyes que hayan participado en esas zonas y tomamos el valor con mayor numero de
 #coincidencias cuyo resultado sea victoria
@@ -35,18 +34,23 @@ if zona in zonas:
                 lperdedor.append(elem.find(defensor).text)
             if elem.find("resultado_atacante").text!="win":
                 lperdedor.append(elem.find(atacante).text)
-
-
-
-#genero un diccionario que toma como clave cada elemento sin repetir de la lista y como valor el numero de ocurrencias
-#de ese elemento del que tomamos la clave con el valor más alto
-
-numvictorias=dict((x,l.count(x)) for x in set(l))
-maxvencedor = max(numvictorias, key=numvictorias.get)
-
-numderrotas=dict((x,lperdedor.count(x)) for x in set(lperdedor))
-maxperdedor = max(numderrotas, key=numderrotas.get)
-
-
-print "El rey con más batallas ganadas en",zona,"es",maxvencedor
-print "El que ha perdido más batallas en",zona,"es",maxperdedor
+    #genero un diccionario que toma como clave cada elemento sin repetir de la lista y como valor el numero de ocurrencias
+    #de ese elemento del que tomamos la clave con el valor más alto
+    numvictorias=dict((x,l.count(x)) for x in set(l))
+    maxvencedor = max(numvictorias, key=numvictorias.get)
+    numderrotas=dict((x,lperdedor.count(x)) for x in set(lperdedor))
+    maxperdedor = max(numderrotas, key=numderrotas.get)
+    ejercito=[]
+    if zona in zonas:
+        for elem in raiz:
+            if elem.find("region").text==zona and elem.find(atacante).text==maxvencedor and elem.find("resultado_atacante").text=="win":
+                ejercito.append(elem.find("contendientes/ejercito_atacante").attrib.values()[0])
+    sumaejercito=0
+    for elem in ejercito:
+       if elem.strip():
+           n = int(elem)
+           sumaejercito=sumaejercito+n
+    print "El rey con más batallas ganadas en",zona,"es",maxvencedor,"con un total de",sumaejercito,"hombres"
+    print "El que ha perdido más batallas en",zona,"es",maxperdedor
+else:
+    "ese nombre no pertenece a ninguna zona conocida"
