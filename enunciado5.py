@@ -8,37 +8,30 @@ doc = etree.parse('batallasjuegotronos.xml')
 raiz=doc.getroot()
 
 #zona=raw_input("introduce el nombre de una zona")
-#ej. Deepwood Motte,Winterfell
-zona="Deepwood Motte"
+#ej. The Riverlands,The North,The Westerlands
+zona="The Riverlands"
 
 #localizamos el nombre de las zonas, despues tomamos los reyes que hayan participado en esas zonas y tomamos el valor con mayor numero de
 #coincidencias cuyo resultado sea victoria
-rutazona="//localizacion/text()"
+rutazona="//region/text()"
 zonas=raiz.xpath(rutazona)
 
-
-#rutareyes="//rey_atacante/text()[//localizacion/text()='"+zona+"']"
-#reyes=raiz.xpath(rutareyes)
-#print len(reyes)
-##tomar el valor con mayor numero de ocurrencias de una lista:
-#a=max(set(reyes), key=reyes.count)
-#falta comprobar resultado = victoria
-#//batalla[//rey_atacante/text()|localizacion/text()='Winterfell']
-#//batalla[localizacion/text()='Winterfell'][rey_atacante/text()]
-#(//rey_atacante/text()|//rey_defensor/text())/../..
 
 l=[]
 
 if zona in zonas:
     for elem in raiz:
-        if elem.find("localizacion").text ==zona and elem.find("resultado_atacante").text=="win":
-            #dic={}
-            #dic[elem.find("contendientes/ejercito_atacante/rey_atacante").text]=1
-            #l.append(dic)
-            l.append(elem.find("contendientes/ejercito_atacante/rey_atacante").text)
+        if elem.find("region").text ==zona:
+            if elem.find("resultado_atacante").text=="win":
+                l.append(elem.find("contendientes/ejercito_atacante/rey_atacante").text)
+            if elem.find("resultado_atacante").text!="win":
+                l.append(elem.find("contendientes/ejercito_defensor/rey_defensor").text)
 
-print l
+#genero un diccionario que toma como clave cada elemento sin repetir de la lista y como valor el numero de ocurrencias
+#de ese elemento del que tomamos la clave con el valor más alto
 
-#print dic
+numvictorias=dict((x,l.count(x)) for x in set(l))
+maximum = max(numvictorias, key=numvictorias.get)
 
-#falta comprobar si es mas intuitivo usar lista o diccionario y contar ocurrencias de cada elemento
+
+print "El rey con más batallas ganadas en",zona,"es",maximum
