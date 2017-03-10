@@ -19,19 +19,34 @@ zonas=raiz.xpath(rutazona)
 
 l=[]
 
+lperdedor=[]
+
+atacante="contendientes/ejercito_atacante/rey_atacante"
+defensor="contendientes/ejercito_defensor/rey_defensor"
+
 if zona in zonas:
     for elem in raiz:
         if elem.find("region").text ==zona:
             if elem.find("resultado_atacante").text=="win":
-                l.append(elem.find("contendientes/ejercito_atacante/rey_atacante").text)
+                l.append(elem.find(atacante).text)
             if elem.find("resultado_atacante").text!="win":
-                l.append(elem.find("contendientes/ejercito_defensor/rey_defensor").text)
+                l.append(elem.find(defensor).text)
+            if elem.find("resultado_atacante").text=="win":
+                lperdedor.append(elem.find(defensor).text)
+            if elem.find("resultado_atacante").text!="win":
+                lperdedor.append(elem.find(atacante).text)
+
+
 
 #genero un diccionario que toma como clave cada elemento sin repetir de la lista y como valor el numero de ocurrencias
 #de ese elemento del que tomamos la clave con el valor más alto
 
 numvictorias=dict((x,l.count(x)) for x in set(l))
-maximum = max(numvictorias, key=numvictorias.get)
+maxvencedor = max(numvictorias, key=numvictorias.get)
+
+numderrotas=dict((x,lperdedor.count(x)) for x in set(lperdedor))
+maxperdedor = max(numderrotas, key=numderrotas.get)
 
 
-print "El rey con más batallas ganadas en",zona,"es",maximum
+print "El rey con más batallas ganadas en",zona,"es",maxvencedor
+print "El que ha perdido más batallas en",zona,"es",maxperdedor
